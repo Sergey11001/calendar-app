@@ -20,7 +20,7 @@ const NavBar = () => {
 
     return (
         <Layout.Header>
-            <Row justify="end" style={{color:"white"}}>
+            <Row justify="end" align={"middle"} style={{color:"white"}}>
                     {
                         isAuth ?
                             <>
