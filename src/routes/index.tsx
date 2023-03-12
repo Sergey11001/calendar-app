@@ -9,8 +9,8 @@ export interface IRoute {
 }
 
 export enum RoutesNames {
-    LOGIN = "/login",
-    EVENT = "/",
+    LOGIN = "calendar/login",
+    EVENT = "calendar/",
 }
 
 export const publicRoutes: IRoute[] = [
