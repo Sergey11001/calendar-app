@@ -8,9 +8,10 @@ export interface IRoute {
     element: ReactNode
 }
 
+//для gh-pages (calendar-app)
 export enum RoutesNames {
-    LOGIN = "calendar/login",
-    EVENT = "calendar/",
+    LOGIN = "calendar-app/login",
+    EVENT = "calendar-app/",
 }
 
 export const publicRoutes: IRoute[] = [
